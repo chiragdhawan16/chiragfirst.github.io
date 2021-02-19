@@ -244,6 +244,25 @@ margin: 0px 30px 10px 30px;
 	opacity:1;
 	
 }
+
+
+
+/** management page**/
+
+.management-content{
+display: flex;
+flex-direction: column;
+}
+
+.management-heading{
+	font-size: 40px;
+	color:blue;
+}
+.management-name{
+	font-size: 30px;
+	
+}
+
 @media only screen and (max-width: 	700px){
 
 	.menu-right span{
