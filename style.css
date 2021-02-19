@@ -395,6 +395,10 @@ width:90%;
 .send-message div{
 	width:90%;
 }
+
+.send-message-right input{
+	font-size: 16px;
+}
 /**contact page end**/
 
 
