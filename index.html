@@ -82,18 +82,18 @@
 
 <div class="statistic">
 	<div class="lines"><p>Statistic</p></div>
-	<div><p>Counter</p></div>
+	<div class="countertext"><p>Counter</p></div>
 	<div class="statistic-counter">
-		<div><p class="count">22000</p>
+		<div class="count-p"><p class="count">22000</p>
 			<p>+ Products Available</p>
 		</div>
-		<div><p class="count">300</p>
+		<div class="count-p"><p class="count">300</p>
 			<p>+ Companies</p>
 		</div>
-		<div><p class="count">3000</p>
+		<div class="count-p"><p class="count">3000</p>
 			<p>+ Customers</p>
 		</div>
-		<div><p class="count">150</p>
+		<div class="count-p"><p class="count">150</p>
 			<p>+ Staff</p>
 		</div>
 	</div>
@@ -125,13 +125,18 @@
 <a class="to-top" id="totop" href="#top"><i class="fas fa-arrow-up"></i></a>
 
 <script src="myscript.js" type="text/javascript" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous"></script>
+
 <script>
-$(".count").counterup({
-	delay:10,
-	time:1000
-});
+	$('.count').counterUp({
+		delay:10,
+		time:1000
+	});
+
 </script>
+
+
 </body>
 </html>

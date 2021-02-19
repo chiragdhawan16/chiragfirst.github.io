@@ -179,10 +179,20 @@ margin: 0px 30px 10px 30px;
 }
 
 .statistic{
-	background:blue;
+	background:#F8F8F8;
+	color:#444;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.lines{
+	font-size: 30px;
+}
+
+.countertext{
+	font-size: 25px;
+	
+
 }
 .lines p:before{
 	background-color: white;
@@ -195,11 +205,21 @@ margin: 0px 30px 10px 30px;
 	top: 50%;
 }
 
+
 .statistic-counter{
-	background:yellow;
+	
 	display: flex;
 	justify-content: space-around;
 	width: 80%;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.count-p{
+	width:20%;
+}
+.count{
+	color:#aec40b;
+	font-size: 25px;
 }
 .to-top {
 	background:black;
