@@ -1,14 +1,6 @@
 
 
-$( document ).ready(function() {
 
-
-
- 
-
-  
-
-});
 	
 	function slidtext()
 	{
